@@ -1,0 +1,25 @@
+// Workshop 1: DIY
+// Date: 2021/1/24
+// Author: Jaan Javed
+// Student Number: 100131192
+///////////////////////////////////////////////////
+#ifndef SDDS_cstring_H
+#define SDDS_cstring_H
+
+namespace sdds
+{
+    void strCpy(char *des, const char *src);
+
+    void strnCpy(char *des, const char *src, int len);
+
+    int strCmp(const char *s1, const char *s2);
+
+    int strnCmp(const char *s1, const char *s2, int len);
+
+    int strLen(const char *s);
+
+    const char *strStr(const char *str1, const char *str2);
+
+    void strCat(char *des, const char *src);
+}
+#endif
